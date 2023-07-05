@@ -1,0 +1,199 @@
+
+@media (max-width: 1024px) {
+    .center, .products__items {
+        padding-left: calc(50% - 734 / 2);
+        padding-right: calc(50% - 734 / 2);
+    }
+    .top__content {
+        gap: 32px;
+        justify-content: center;
+    }
+
+    .top__video {
+        width: 100%;
+    }
+
+    .service__box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products__items {
+        justify-content: center;
+    }
+
+    .products__links {
+        gap: 32px;
+    }
+
+    .products__link {
+        font-size: 20px;
+    }
+
+    .get {
+        padding-left: calc(50% -734 / 2);
+        padding-bottom: 32px;
+    }
+
+    .get__contacts {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    
+    .get__content {
+        gap: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        position: relative;
+    }
+
+    .fa-solid {
+        display: var(--fa-display,inline-block) !important;
+    }
+
+    .fa-bars {
+        padding-right: 32px;
+    }
+
+    .header {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .nav {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transform: left .5s;
+        width: 100%;
+        background-color: #000;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu__linc_active {
+        background: none;
+    }
+
+    .fa-xmark {
+        position: absolute;
+        top: 32px;
+        right: 32px;
+    }
+
+    .title {
+        font-size: 35px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .text { 
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .top__info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top__text {
+        width: 100%;
+    }
+
+    .top__video {
+        height: 200px;
+    }
+
+    .service {
+        grid-template-columns: repeat(1, 1 fr);
+    }
+
+    .heading {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .service__button {
+        align-items: center;
+    }
+
+    .products__links {
+        flex-wrap: wrap;
+    }
+
+    .meet__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text_meet {
+        width: 100%;
+    }
+
+    .meet__people {
+        width: 150px;
+        height: 160px;
+    }
+
+    .subscribe__form {
+        flex-direction: column;
+    }
+
+    .subscribe__input {
+        width: 100%;
+        height: 52px;
+    }
+
+    .get__text {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+
+    .get__form {
+        width: 100%;
+        grid-row-gap:24px;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+
+    .get__contacts {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .get__info {
+        width: 100%;
+    }
+
+    .get__line {
+        margin-left: 16px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        gap: 16px;
+        align-items: center;
+    }
+}
